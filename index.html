@@ -1,430 +1,359 @@
-<!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>WhoType</title>
-    <meta name="description" content="One Page Layout">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory-->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700">
-    <link rel="stylesheet" href="styles/font-awesome.css">
-    <link rel="stylesheet" href="styles/owl.carousel.css">
-    <link rel="stylesheet" href="styles/owl.theme.css">
-    <link rel="stylesheet" href="styles/slit-slider-style.css">
-    <link rel="stylesheet" href="styles/slit-slider-custom.css">
-    <link rel="stylesheet" href="styles/idangerous.swiper.css">
-    <link rel="stylesheet" href="styles/yamm.css">
-    <link rel="stylesheet" href="styles/animate.css">
-    <link rel="stylesheet" href="styles/prettyPhoto.css">
-    <link rel="stylesheet" href="styles/bootstrap-slider.css">
-    <link rel="stylesheet" href="styles/device-mockups2.css">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/main-responsive.css">
-    <link id="primary_color_scheme" rel="stylesheet" href="styles/theme_red.css">
-    <script src="scripts/vendor/modernizr.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <noscript>
-      <link rel="stylesheet" href="styles/styleNoJs.css">
-    </noscript>
-  </head>
-  <body>
-    <div id="load"></div><!--[if lt IE 9]>
-    <p class="browsehappy">You are using an strong outdated browser. <br>Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <div class="page">
-      <!-- Start Nav Section-->
-      <nav id="main-navigation" role="navigation" class="navbar navbar-fixed-top navbar-standard">
-         <!-- Search form: <a href="javascript:void(0)" class="search_button"><i class="fa fa-search"></i></a>
-       
-        <form action="search.html" method="get" role="search" class="h_search_form">
-          <div class="container">
-            <div class="h_search_form_wrapper">
-              <div class="input-group"><span class="input-group-btn">
-                  <button type="submit" class="btn btn-sm"><i class="fa fa-search fa-lg"></i></button></span>
-                <input type="text" placeholder="Search on site" class="form-control">
-              </div>
-              <div class="h_search_close"><a href="#"><i class="fa fa-times"></i></a></div>
-            </div>
-          </div>
-        </form> -->
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle"><i class="fa fa-align-justify fa-lg"></i></button>
-            <a href="#" class="navbar-brand">
-              <img src="img/logored.png" alt="" class="logo-white">
-              <img src="img/logored.png" alt="" class="logo-dark">
-            </a>
-          </div>
-          <div class="navbar-collapse collapse">
-         
-              <ul class="nav navbar-nav navbar-right service-nav">
-              <li><a id="dropdownMenuLogin" href="#" data-toggle="dropdown" class="upper dropdown-toggle">Login</a></li></ul>
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>WhoType</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> <!-- Remove this For Non-responsive -->
+	
+	<!-- favicon -->
+	<link rel="shortcut icon" href="img/favicon.png">
+	
+	<link href="css/candy.css" rel="stylesheet" type="text/css" />
+	<link href="css/candy-plugins.css" rel="stylesheet" type="text/css" />
+	<link href="css/ionicons.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />	
+	<link href="css/responsive.css" rel="stylesheet" type="text/css" />
 
-             <ul class="nav navbar-nav navbar-right service-nav">
-              <li><a id="dropdownMenuLogin" href="#" data-toggle="dropdown" class="upper dropdown-toggle">Register</a></li></ul>
-            <button type="button" class="navbar-toggle"><i class="fa fa-close fa-lg"></i></button>
-            <!-- Nave bars - - - - - - - 
-              <ul id="one-page-menu" role="menu" class="nav navbar-nav navbar-left">
-              <li><a href="#home" title="Home" data-ref="home">Home</a>
-              </li>
-              <li><a href="#about" title="About us" data-ref="about">About us</a>
-              </li>
-              <li><a href="#portfolio" title="Portfolio" data-ref="portfolio">Portfolio</a>
-              </li>
-              <li><a href="#shop" title="Shop" data-ref="shop">Shop</a>
-              </li>
-              <li><a href="#blog" title="Blog" data-ref="blog">Blog</a>
-              </li>
-              <li><a href="#pricing" title="Pricing" data-ref="pricing">Pricing</a>
-              </li>
-              <li><a href="#team" title="Team" data-ref="team">Team</a>
-              </li>
-              <li><a href="#services" title="Services" data-ref="services">Services</a>
-              </li>
-              <li><a href="#contacts" title="Contacts" data-ref="contacts">Contacts</a>
-              </li>
-            </ul> -->
-          </div>
-        </div>
-      </nav>
-      <!-- Start Home Section-->
-      <section id="home" class="demo-1">
-        <!--     Codrops top bar-->
-        <div id="slider" class="sl-slider-wrapper">
-          <div class="sl-slider">
-            <!-- start slide-->
-            <div data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2" class="sl-slide">
-              <div style="background-image: url(img/test2.png);" class="sl-slide-inner">
-                <div class="slide-container col-lg-8">
-                  <div class="slide-content text-center">
-                    <!-- For logo: <img scr="" class="deco"> -->
-                    <h2 class="main-title"> <span class="text-primary">DISCOVER THE POWER OF PERSONALITY.</span></h2>
-                   
-                     <!--p>Whotype lets you live, work, and play in incredibly compatible ways.</p-->
-                    
-                    <a class="btn btn-light btn-bordered btn-lg" href="#0">Login</a>
-                    <a class="btn btn-primary btn-lg" href="#0">Register</a> 
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- end slide-->
-           
-          </div>
-          
-        </div>
-         <!-- -/slider-wrapper-->
-      </section>
+	<!--<link href="css/candy.css" rel="stylesheet" type="text/css" />
+	<link href="css/ionicons.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/superslides.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />	
+	<link href="css/responsive.css" rel="stylesheet" type="text/css" />-->
+	
+	<!-- Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+	
+	<!--<script src="js/modernizr.min.js"></script>-->
+	
+</head>
+<body>
+	<div id="back-to-top" class="back-to-top"><a href="#back-to-top"><i class="icon ion-ios-arrow-up"></i></a></div> <!-- Copy & Paste this for back-to-top -->
+	
+	
+	<div class="header-navigation-menu header-sticky dynamic-nav-menu change-style transparent-nav-menu clearfix">
+		<div class="container">
+			<div class="header-icon">
+				<a href="#" class="logo-icon logo-dark"><img src="img/nav.png" alt="whotype"></a> <!-- Logo to change -->
+				<a href="#" class="logo-icon logo-lite"><img src="img/white.png" alt="whotype"></a> <!-- Logo to change -->
+			</div>
+			<div class="toggle-nav-menu toggle-menu primary-typo strong"><div>MENU</div><div><a href="#"><div class="burg"></div></a></div></div> 
+			<div class="header-menu">
+				<nav class="nav-menu page-scroll" >
+					<ul class="nav-menu-content">
+						<li><a href="#">Login</a></li>
+						<li><a href="#">Register</a></li>
+						
+					</ul>
+				</nav>		
+			</div>
+		</div>
+		<nav class="tab-nav-menu page-scroll" >
+			<ul class="tab-nav-menu-content container">
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Register</a></li>
+			</ul>
+		</nav>	
+	</div>
+	<!--<div class="spacer"></div>	-->
+	
+	<div class="content">
+	
+		<!-- Fullscreen Slider -->
+		<div id="agni-slides" class="agni-slides white">
+			<ul class="slides-container" >
+				<!-- <li>
+					<div class="slide-image">
+						<img src="img/homepage.png" alt="Slide 2">
+						<div class="overlay"></div>
+					</div>
+					<div class="slide-container container text-center">
+						<div class="slide-content page-scroll">
+							<p class="slide-additional-title">DISCOVER THE POWER OF</p>
+							<p class="slide-title primary-typo strong"> PERSONALITY</p>	
+							<a href="#works" class="btn btn-default btn-alt primary-typo">Login</a>
+							<a href="#works" class="btn btn-default btn-alt primary-typo">Register</a>
+						</div>
+					</div>
+				</li> -->
+				<li>
+					<div class="slide-image">
+						<img src="img/homepage.png" alt="Slide 3">
+						<div class="overlay"></div>
+					</div>
+					<div class="slide-container container text-center">
+						<div class="slide-content">
+							<p class="slide-additional-title">DISCOVER THE POWER OF</p>
+							<p class="slide-title primary-typo strong"> PERSONALITY</p>	
+							<a href="#works" class="btn btn-red-white primary-typo">LOGIN</a>
+							<a href="#works" class="btn btn-red-white primary-typo">REGISTER</a>								
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- end Fullscreen Slider -->
+	<!-- About us -->
+		<section id="about" class="about-heading">
+			<div class="container">
+				<div class="row">
+					<div class=" col-sm-12  text-left margin-top-140 margin-bottom-50">
+						<div class="section-heading">
+							<h1 class="heading heading-crossed col-lg-3 col-md-12">WhoType</h1>
+							<p class="additional-heading col-lg-9 col-md-12 margin-top-10">[ho͞o-tīp] </p>
+								<p class="additional-heading col-md-12"> <span>Noun:</span> Whotype is a social platform for exploring personality patterns and relationship harmonics to truly understand how to best work and best agree with ourselves and one another” </p>
+								<p class="additional-heading col-md-12"> <span>Verb:</span> <b>(Whotyped)</b> to discover and understand personality patterns of individuals, couples, groups, and companies. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
+		<!-- Section starts here -->			
+		<!-- About us -->
+		<section id="about" class="about-2 section-bg-image1">
+				<div class="container">
+					<div class="row">
+						<div class=" big-white col-sm-12 col-md-6 text-left margin-140 padding-top-20 padding-bottom-20">
+								<h1 class="heading margin-bottom-30">Start with yourself</h1>
+								<p>Discover your Whotype and explore how personality patterns connect us with our world, and our relationships that truly matter. </p>
+								<p>Find and get to know your personality’s patterns and have your closest connections type you to gain deeper understanding of how to live healthy, in balance, and aware of your patterns in your actions. </p>
+								<p>Discover how root motivations in our patterns work. </p>  
+							
+						</div>
+						
+					</div>
+				</div>
+		</section>
+		<section id="about-3" class="about-3 section-bg-image2" >
+			
+				<div class="container">
+					<div class="row">
+						<!--<div class="col-sm-6 col-md-offset-2 col-md-4 margin-140">
+							<img src="img/ipad.png" alt="mockup_2" /> 
+						</div> -->
+						<div class="big-white col-sm-12 col-md-offset-6 col-md-6 margin-140 padding-top-20 padding-bottom-20">
+								<h1 class="heading margin-bottom-30 ">Let's get personal</h1>
+								<p>Whotype is all about understanding relationships. Family, Friends, and loved ones - our closest personal connections.</p>
+								<p>Harmonize with your connections, explore personality patterns, understand the depth of your most important personal relationships. </p>
+								<p>Understanding others is the key to harmony in our own lives. If you truly understood another person, you could not disagree with why they are the way they are. </p> 
+						</div>
+					</div>
+				</div>
+				
+		</section>
 
-      <!-- End Home Section-->
-      <!-- Start About section-->
-      <section id="about" class="sep-top-2x sep-bottom-3x">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-5 text-right">
-              <div class="sep-top-md sep-bottom-sm">
-                <div class="bordered-right section-title hidden-xs">
-                  <h4 class="upper"><span class="label-colored">Live</span>, work, and play in incredibly compatible ways.</h4>
-                </div>
-                <div class="section-title visible-xs">
-                  <h3 class="upper"><span class="label-colored">Live</span>, work, and play in incredibly compatible ways.</h3>
-                </div>
-                <p class="lead ">WhoType is a social analysis tool that will make your relationships awesome (with friends, family, and colleagues). Better understand what makes you the way you are and where your true motivations derive from. </p>
-                <!--div class="sep-top-xs"><a href="#about" target="_blank" data-wow-delay=".5s" class="btn btn-primary btn-lg wow bounceInLeft">Learn about us</a></div-->
-              </div>
-            </div>
-            <!-- White seperator! - - - - -->
-            <div class="col-md-7">
-              <div data-device="macbook" data-orientation="landscape" data-color="black" class="device-mockup">
-                <div class="device">
-                  <div class="screen"><img src="img/profile.png" alt="" width="577" height="433" class="img-responsive"></div>
-                </div>
-              </div> 
-            </div> 
-          </div>
-
-        </div>
-      </section>
-      <!-- End About section-->
-
-
-
-       
-
-      <!-- Start Personal Parallax section-->
-      <section id="parallax0" style="background-image: url(img/parallax1.jpg);" class="parallax">
-        <div class="section-shade sep-top-3x sep-bottom-3x">
-          <div class="container">
-            <div class="row">
-              <!-- text to the left -->
-              <div class="col-md-6 text-right">
-                <div class="section-title">
-                  <div class="light">
-                    <p class="lead x2 ">We connect better with loved ones when we truly get each other. Explore how your core adapts to different situations. Get to know yourself and the people you love better.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- text to the right -->
-              <div class="col-md-6 hidden-sm hidden-xs text-left">
-                <div class="section-title">
-                  <div class="bordered-left light">
-                    <h2 class="upper small-space">Deepen your personal<span> relationships</span></h2>
-                  </div>
-                </div>
-              </div>
-               <!-- End text Block -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Personal Parallax section-->
+		<section id="about" class="about-2 section-bg-image3">
+				<div class="container">
+					<div class="row">
+						<div class="big-white col-sm-12 col-md-6 text-left margin-140 padding-top-20 padding-bottom-20">
+							<h1 class="heading margin-bottom-30">Let’s get professional</h1>
+							<p> Whotype supports you in your advancement of understanding how your motivations fit with your professional connections and closest colleagues. </p>
+							<p> Explore the ways in which your personality and your co-workers works together; understanding our closest colleagues helps us best work and best agree at work; produce something amazing together. </p>
+						</div>
+						
+					</div>
+			</div>	
+		</section>
+		<section id="about-3" class="about-3 section-bg-image4" >
+			
+				<div class="container">
+					<div class="row">
+						<!--<div class="col-sm-6 col-md-offset-2 col-md-4 margin-140">
+							<img src="img/ipad.png" alt="mockup_2" /> 
+						</div> -->
+						<div class=" big-white col-sm-12 col-md-6  col-md-offset-6 margin-140 padding-top-20 padding-bottom-20">
+								<h1 class="heading margin-bottom-30">Companies have a personality too!</h1>
+								<p>From Startups to Industry Leaders, Whotype is harmony at work and helps company’s better understand the overall dynamics of teams, working groups, and the company personality as a whole.</p>
+								<p>Develop, advance, and promote true workplace harmony; help teams better understand how to work with each other. </p>
+								<p>Building a better HR using personality pattern and motivational analysis at all levels to maximize employee engagement and minimizing costly hiring mistakes.  </p> 
+						
+					</div>
+					</div>
+				</div>
+				
+		</section>
 
 
+		
+		
+		
+		<!-- Call to action -->
+		<section id="call-to-action" class="rel-img call-to-action calltoaction_bg" data-top-bottom="background-position: 0px 200px;" data-bottom-top="background-position: 0px -300px">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-offset-2 col-md-8 margin-120 text-center dark">
+						<p class="big-white heading-underlined">Our mobile app is coming soon!</p>
+						<h4 class="margin-bottom-40">Create an account today and try out our web app. It plays well with any device.</h4>
+						<a href="#works" class="btn btn-red-white primary-typo">REGISTER</a>	
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	
+		
+		<!-- Testimonials 
+		<section id="testimonials" class="testimonials testimonials_bg rel-img" data-top-bottom="background-position: 0px 200px;" data-bottom-top="background-position: 0px -300px">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-offset-2 col-md-8 margin-top-120 margin-bottom-90 white text-center">
+						<div id="carousel-testimonials" class="carousel-testimonials">
+							<div class="testimonial-content">		
+								<p class="testimonial-quote-text additional-heading">Fusce volutpat auctor arcu vitae egestas. Maecenas at purus nec dolor sodales cursus et eget mauris.</p>
+								<h6 class="testimonial-quote-cite">- JOHN DOE</h6>
+								<div class="testimonial-avatar">
+									<img class="img-circle" src="img/testimonial_avatar_1.jpg" alt="quote" />
+								</div>
+							</div>
+							<div class="testimonial-content">		
+								<p class="testimonial-quote-text additional-heading">Fusce volutpat auctor arcu vitae egestas. Maecenas at purus nec dolor sodales cursus et eget mauris.</p>
+								<h6 class="testimonial-quote-cite">- JOHN DOE</h6>
+								<div class="testimonial-avatar">
+									<img class="img-circle" src="img/testimonial_avatar_1.jpg" alt="quote" />
+								</div>
+							</div>
+							<div class="testimonial-content">		
+								<p class="testimonial-quote-text additional-heading">Fusce volutpat auctor arcu vitae egestas. Maecenas at purus nec dolor sodales cursus et eget mauris.</p>
+								<h6 class="testimonial-quote-cite">- JOHN DOE</h6>
+								<div class="testimonial-avatar">
+									<img class="img-circle" src="img/testimonial_avatar_1.jpg" alt="quote" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		-->
+		
+		<!-- Contact Form -->
+		<section id="contact" class="contact">
+			<div class="container">				
+				<div class="row">
+					<div class="col-md-offset-2 col-md-8 text-center margin-top-140">
+						<div class="section-heading">
+							<h1 class="heading heading-crossed">GET IN TOUCH</h1>
+							<p class="additional-heading">We are excited to share what we are up to!</p>
+						</div>
+					</div>				
+					<div class="col-md-offset-1 col-md-10 margin-bottom-140">
+						<div class="row">
 
-      
-      
-      <!-- Start Portfolio section-->
-      <section id="portfolio" class="sep-top-3x">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="section-title">
-                <h2 class="bordered-left upper wow flipInX text-left hidden-xs">Let's<br>Harmonize</h2>
-                <h2 class="upper wow flipInX text-left visible-xs">Let's Harmonize</h2>
-                <p class="small wow flipInX">Harmony in the home or workplace is achievable when you understand what different people need and the best way interact with them. Perhaps your mother needs alone time when she's stressed, but you just want a hug. </p>
-                <p class="small wow flipInX"> Self awareness and understanding people's actions allows for a new level of communication. We want you to incredibly deep and powerful relationships with everyone that is imortant to you. </p>
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="device-content">
-                <div data-device="ipad" data-orientation="landscape" data-color="white" class="device-mockup">
-                  <div class="device">
-                    <div class="screen">
-                      <div data-navitagion="false" data-slide-speed="300" data-pagination-speed="400" data-single-item="true" data-auto-height="true" data-auto-play="true" class="owl-carousel owl-theme">
-                        <!-- Start Item Slide-->
-                        <div class="item"><img src="img/harmonize.png" alt="" class="img-responsive"></div>
-                        <div class="item"><img src="img/harmonize.png" alt="" class="img-responsive"></div>
-                        <div class="item"><img src="img/harmonize.png" alt="" class="img-responsive"></div>
-                        <!-- End Item Slide-->
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="bg-black sep-top-md sep-bottom-md hidden-sm hidden-xs">
-          <div class="container">
-           <div class="row">
-              <div class="col-md-4">
-                <p class="lead x2 light wow bounceInLeft"> <br><br></p>
-              </div>
-            </div> 
-          </div>
-        </div>
-    </section>
-
-<!-- Start Professional  Parallax section-->
-      <section id="parallax0" style="background-image: url(img/parallax1.jpg);" class="parallax">
-        <div class="section-shade sep-top-3x sep-bottom-3x">
-          <div class="container">
-            <div class="row">
-              <!-- text to the right -->
-              <div class="col-md-6 hidden-sm hidden-xs text-right">
-                <div class="section-title">
-                  <div class="bordered-right light">
-                    <h2 class="upper small-space">Powerfully improve work<span> relationships</span></h2>
-                  </div>
-                </div>
-              </div>
-              <!-- text to the left -->
-              <div class="col-md-6 text-left">
-                <div class="section-title">
-                  <div class="light">
-                    <p class="lead x2">When we know who we’re working with, we do our best work ever. Get to truly know your colleagues and their needs so that you can make amazing happen.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End text Block -->
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Professional Parallax section-->
-
-
-
-
-      
-  
-      
-
-      
-     
-      <!-- Start Service section-->
-      <section id="services" class="sep-top-5x sep-bottom-5x">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="section-title">
-                <h2 class="bordered-left upper hidden-xs">Get in <br>Touch</h2>
-                <h2 class="upper visible-xs">Get in Touch</h2>
-                <p class="lead">Have any questions about our company or product? Please don't hesitate to reach out. We will be in touch with you quickly. At WhoType, we are excited to share what we are up to!<br><br><br></p>
-              </div>
-            </div>
-            <div class="col-md-6 col-md-offset-1">
-              <div class="contact-form">
-                <div id="successMessage" style="display:none" class="alert alert-success text-center">
-                  <p><i class="fa fa-check-circle fa-2x"></i></p>
-                  <p>Thanks for sending your message! We'll get back to you shortly.</p>
-                </div>
-                <div id="failureMessage" style="display:none" class="alert alert-danger text-center">
-                  <p><i class="fa fa-times-circle fa-2x"></i></p>
-                  <p>There was a problem sending your message. Please, try again.</p>
-                </div>
-                <div id="incompleteMessage" style="display:none" class="alert alert-warning text-center">
-                  <p><i class="fa fa-exclamation-triangle fa-2x"></i></p>
-                  <p>Please complete all the fields in the form before sending.</p>
-                </div>
-                <form id="contactForm" action="php/contact.php" method="post" class="validate">
-                  <div class="form-group">
-                    <input id="contactFormName" type="text" placeholder="Full name" name="name" class="form-control input-lg required">
-                  </div>
-                  <div class="form-group">
-                    <input id="contactFormPhone" type="text" placeholder="Phone number" name="phone" class="form-control input-lg required">
-                  </div>
-                  <div class="form-group">
-                    <input id="contactFormEmail" type="email" placeholder="Email" name="email" class="form-control input-lg required email">
-                  </div>
-                  <div class="form-group">
-                    <textarea id="contactFormComment" placeholder="Message" rows="9" name="comment" class="form-control input-lg required"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <button type="submit" data-wow-delay=".5s" class="btn btn-primary btn-lg wow bounceInRight"><i class="fa fa-paper-plane"></i> Send message</button>
-                  </div>
-                  <!--input#subject.form-control.input-lg.required(type='text', placeholder='Subject of your message', name='subject')
-                  -->
-                </form>
-                <div class="hidden"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact section-->
-    
-    
-        <!-- Start Social-link section-->
-      <section id="social-link" class="bg-primary sep-top-lg sep-bottom-lg">
-        <div class="container">
-          <!--     Start icon box-->
-          <div class="icon-box icon-md fixed-section hidden-xs">
-            <div class="icon-content img-circle"><i class="fa fa-check"></i></div>
-          </div>
-          <!--     End icon box-->
-          <div class="row">
-            <div class="col-md-7">
-              <div class="section-title" >
-                <div class="light">
-                  <h3 class="upper small-space">Let's get social</h3>
-                  <p class="lead lighter">We would love to connect with you! Follow us and get tapped into the conversation and the conscious world we're building together.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-5" >
-              <div class="row">
-                <!--           Start icon box-->
-                <div class="col-sm-3 col-xs-4  sep-top-sm">
-                  <div data-wow-delay="0.5s" class="icon-box icon-horizontal icon-sm wow bounceInRight"><a href="https://twitter.com/whotype" target="_blank" class="icon-content inverter img-circle"><i class="fa fa-twitter"></i></a></div>
-                </div>
-                <!--           End icon box-->
-                <!--           Start icon box-->
-                <div class="col-sm-3 col-xs-4  sep-top-sm">
-                  <div data-wow-delay="0.7s" class="icon-box icon-horizontal icon-sm wow bounceInRight"><a href="https://www.facebook.com/whotype?fref=ts" target="_blank" class="icon-content inverter img-circle"><i class="fa fa-facebook"></i></a></div>
-                </div>
-                <!--           End icon box-->
-                <!--           Start icon box-->
-                <div class="col-sm-3 col-xs-4  sep-top-sm">
-                  <div data-wow-delay="0.9s" class="icon-box icon-horizontal icon-sm wow bounceInRight"><a href="https://www.linkedin.com/company/9192293?trk=tyah&trkInfo=clickedVertical%3Acompany%2Cidx%3A1-1-1%2CtarId%3A1434504751702%2Ctas%3Awhotype" target="_blank"  class="icon-content inverter img-circle"><i class="fa fa-linkedin"></i></a></div>
-                </div>
-                <!--           End icon box-->
-                <!--       Start icon box-->     
-                <div class="col-md-3 hidden-xs sep-top-sm">
-                  <div data-wow-delay="1.1s" class="icon-box icon-horizontal icon-sm wow bounceInRight"><a href="" target="_blank" class="icon-content inverter img-circle"><i class="fa fa-envelope"></i></a></div>
-                </div>
-                  <!--        End icon box-->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Social-link section-->
-      
-      <!-- Start Footer section -->
-      <footer id="footer">
-      
-        <div class="copyright bg-black sep-top-xs sep-bottom-xs">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6"><small>Copyright 2015 © WhoType All rights reserved.</small></div>
-            </div>
-          </div>
-        </div>
-      </footer>
-      <!-- End Footer section-->
-      <div id="back_to_top"><a href="#" class="fa fa-arrow-up fa-lg"></a></div>
-    </div>
-    <script src="scripts/vendor/queryloader2.min.js"></script>
-    <script src="scripts/vendor/owl.carousel.js"></script>
-    <script src="scripts/vendor/jquery.ba-cond.min.js"></script>
-    <script src="scripts/vendor/jquery.slitslider.js"></script>
-    <script src="scripts/vendor/idangerous.swiper.js"></script>
-    <script src="scripts/vendor/jquery.fitvids.js"></script>
-    <script src="scripts/vendor/jquery.countTo.js"></script>
-    <script src="scripts/vendor/TweenMax.min.js"></script>
-    <script src="scripts/vendor/ScrollToPlugin.min.js"></script>
-    <script src="scripts/vendor/jquery.scrollmagic.min.js"></script>
-    <script src="scripts/vendor/jquery.easypiechart.js"></script>
-    <script src="scripts/vendor/jquery.validate.js"></script>
-    <script src="scripts/vendor/wow.min.js"></script>
-    <script src="scripts/vendor/jquery.placeholder.js"></script>
-    <script src="scripts/vendor/jquery.easing.1.3.min.js"></script>
-    <script src="scripts/vendor/jquery.waitforimages.min.js"></script>
-    <script src="scripts/vendor/jquery.prettyPhoto.js"></script>
-    <script src="scripts/vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="scripts/vendor/isotope.pkgd.min.js"></script>
-    <script src="scripts/vendor/jquery.fillparent.min.js"></script>
-    <script src="scripts/vendor/raphael-min.js"></script>
-    <script src="scripts/vendor/bootstrap.js"></script>
-    <script src="scripts/vendor/jquery.bootstrap-touchspin.min.js"></script>
-    <script src="scripts/vendor/bootstrap-slider.js"></script>
-    <script src="scripts/vendor/bootstrap-rating-input.js"></script>
-    <script src="scripts/vendor/bootstrap-hover-dropdown.min.js"></script>
-    <script src="scripts/jquery.gmap.min.js"></script>
-    <script src="scripts/circle_diagram.js"></script>
-    <script src="scripts/main.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'XX-XXXXXXXX-XX', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <script>
-      $('.hide-password').on('click', function(){
-        var $this= $(this),
-          $password_field = $this.prev('input');
-          
-          ( 'password' == $password_field.attr('type') ) ? $password_field.attr('type', 'text') : $password_field.attr('type', 'password');
-          ( 'Hide' == $this.text() ) ? $this.text('Show') : $this.text('Hide');
-          //focus and move cursor to the end of input field
-          $password_field.putCursorAtEnd();
-      });
-    </script>
-  </body>
+							<!-- To configure the contact form email address, go to contact/contact.php and update the email address in the PHP file on line 18. -->
+							<!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+							<form name="sentMessage" id="contactForm" class="contact-form" novalidate>
+								<div class="col-md-6 text-left">
+									<div class="row">
+										<div class="control-group">
+											<div class="form-group col-xs-12 floating-label-form-group controls">
+												<input type="text" class="form-control" placeholder="Name *" id="name" required data-validation-required-message="Please enter your name.">
+												<p class="help-block text-danger required-alert"></p>
+											</div>
+										</div>
+										<div class="control-group">
+											<div class="form-group col-xs-12 floating-label-form-group controls">
+												<input type="email" class="form-control" placeholder="Email Address *" id="email" required data-validation-required-message="Please enter your email address.">
+												<p class="help-block text-danger required-alert"></p>
+											</div>
+										</div>
+										<div class="control-group">
+											<div class="form-group col-xs-12 floating-label-form-group controls margin-bottom-30">
+												<input type="text" class="form-control" placeholder="Website" id="website">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 text-left">
+									<div class="row">
+										<div class="control-group">
+											<div class="form-group col-xs-12 floating-label-form-group controls">
+												<textarea rows="4" class="form-control" placeholder="Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+												<p class="help-block text-danger required-alert"></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="form-group col-xs-12 text-center margin-20">
+									<button type="submit" class="btn btn-red primary-typo">SUBMIT</button>
+								</div>
+								<div class="clearfix"></div>
+								<div class="col-md-12 text-left clearfix">
+									<div id="success"></div>
+								</div>
+								<div class=""></div>
+							</form>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</section>
+		
+		<!-- Footer menu -->
+		<div id="footer-area" class="footer">
+			<div class="container">
+				<div class="row col-md-offset-2 col-md-8 margin-top-40 text-center">
+					<div class="col-md-3 col-xs-6">
+						<a href="https://www.facebook.com/whotype?fref=ts" target="_blank"><i class="ion-social-facebook large-icon"></i></a>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<a href="https://twitter.com/WhoType" target="_blank"><i class="ion-social-twitter large-icon"></i></a>
+					</div>
+					<div class="col-md-3 col-xs-6">
+						<a href="https://www.linkedin.com/company/9192293?trk=tyah&trkInfo=clickedVertical%3Acompany%2Cidx%3A2-1-3%2CtarId%3A1435076950303%2Ctas%3Awhoty" target="_blank"><i class="ion-social-linkedin large-icon"></i></a>
+					</div>
+					<div class="col-md-3 col-xs-6 ">
+						<a href="https://plus.google.com/111860385105660576914/about" target="_blank"><i class="ion-social-googleplus large-icon"></i></a>
+					</div>
+				</div>
+				<div class="separator separator_center footer-sep  col-md-8 col-md-offset-2 ">
+					<span class="sep_holder sep_holder_r"><span class="sep_line"></span></span>
+				</div>	
+				<div id="colophon" class="footer-colophon text-center col-md-8 col-md-offset-2  ">
+					<p class="site-info small">Copyright @ WhoType 2015</p>
+				</div>
+			</div>
+		</div> <!-- END FOOTER -->
+		
+	</div><!-- /content -->
+	
+	<div class="throbbers_loader">
+		<div class="throbber">Just a sec.</div>
+	</div>
+	
+	
+	<!-- Javascripts -->
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/candy-plugins.js"></script>
+	<script src="js/jqBootstrapValidation-1.3.7.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+	
+	<!--<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/candy.min.js"></script>
+	<script src="js/jqBootstrapValidation-1.3.7.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/isotope.min.js"></script>		
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/inview.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/scrollTo-1.4.2-min.js"></script>
+	<script src="js/skrollr.min.js"></script>
+	<script src="js/jquery.simple-text-rotator.min.js"></script> 
+	<script src="js/hammer.min.js"></script>
+	<script src="js/superslides.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/countUp.min.js"></script>
+	<script src="js/jquery.mb.YTPlayer.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>-->
+	
+</body>
 </html>
