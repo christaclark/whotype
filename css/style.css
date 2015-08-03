@@ -983,7 +983,7 @@ section i{
 	background-color:#f3f5f8;
 }
 .section-bg-image1{
-	background: url(../img/slider/3.png) no-repeat center center fixed;
+	background: url(../img/slider/bg-3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1000,7 +1000,7 @@ section i{
   }
 
 .section-bg-image2{
-	background: url(../img/slider/4.png) no-repeat center center fixed; 
+	background: url(../img/slider/bg-4.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1008,7 +1008,7 @@ section i{
 }
 
 .section-bg-image3{
-	background: url(../img/slider/2.png) no-repeat center center fixed; 
+	background: url(../img/slider/bg-6.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1826,7 +1826,6 @@ section i{
   position: relative;
   color: #222222;
   font-weight: 400;
-  background-color: white;
   }
 
 .big-grey{
